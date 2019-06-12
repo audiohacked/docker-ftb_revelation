@@ -3,7 +3,7 @@ FROM openjdk:8-jre-alpine
 MAINTAINER Sean Nelson <audiohacked@gmail.com>
 
 ENV BASE_URL="http://ftb.cursecdn.com/FTB2/modpacks/FTBRevelation" \
-    FTB_VERSION="2_7_0" \
+    FTB_VERSION="3_0_0" \
     SERVER_FILE="FTBRevelationServer.zip" \
     SERVER_PORT=25565
 

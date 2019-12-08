@@ -4,7 +4,7 @@ LABEL maintainer="audiohacked@gmail.com"
 
 ARG MODPACK="FTBRevelation"
 ARG FTB_VERSION="3_2_0"
-ARG BASE_URL="http://ftb.forgecdn.com/FTB2/modpacks/${MODPACK}"
+ARG BASE_URL="http://ftb.forgecdn.net/FTB2/modpacks/${MODPACK}"
 ARG SERVER_FILE="${MODPACK}Server.zip"
 
 WORKDIR /minecraft
